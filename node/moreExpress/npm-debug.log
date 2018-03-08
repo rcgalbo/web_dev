@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/slick/.miniconda3/envs/node/bin/node',
+1 verbose cli   '/home/slick/.miniconda3/envs/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express' ]
+2 info using npm@1.1.49
+3 info using node@v0.8.7
+4 verbose read json /home/slick/.miniconda3/envs/node/lib/package.json
+5 verbose read json /home/slick/.miniconda3/envs/node/lib/package.json
+6 verbose cache add [ 'express', null ]
+7 silly cache add name=undefined spec="express" args=["express",null]
+8 verbose parsed url { pathname: 'express', path: 'express', href: 'express' }
+9 silly lockFile f3c62de4-express express
+10 verbose lock express /home/slick/.npm/f3c62de4-express.lock
+11 silly lockFile f3c62de4-express express
+12 verbose addNamed [ 'express', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile 64a534c1-express express@
+15 verbose lock express@ /home/slick/.npm/64a534c1-express.lock
+16 silly addNameRange { name: 'express', range: '', hasData: false }
+17 verbose url raw express
+18 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+19 verbose url resolved https://registry.npmjs.org/express
+20 info retry registry request attempt 1 at 16:39:50
+21 http GET https://registry.npmjs.org/express
+22 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+23 info retry registry request attempt 2 at 16:40:00
+24 http GET https://registry.npmjs.org/express
+25 info retry will retry, error on last attempt: Error: SSL Error: CERT_UNTRUSTED
+26 info retry registry request attempt 3 at 16:41:00
+27 http GET https://registry.npmjs.org/express
+28 silly lockFile 64a534c1-express express@
+29 error Error: SSL Error: CERT_UNTRUSTED
+29 error     at ClientRequest.<anonymous> (/home/slick/.miniconda3/envs/node/lib/node_modules/npm/node_modules/request/main.js:440:26)
+29 error     at ClientRequest.g (events.js:185:14)
+29 error     at ClientRequest.EventEmitter.emit (events.js:88:17)
+29 error     at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1455:7)
+29 error     at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:111:23)
+29 error     at CleartextStream.socketOnData [as ondata] (http.js:1366:20)
+29 error     at CleartextStream.CryptoStream._push (tls.js:492:27)
+29 error     at SecurePair.cycle (tls.js:846:20)
+29 error     at EncryptedStream.CryptoStream.write (tls.js:227:13)
+29 error     at Socket.ondata (stream.js:38:26)
+30 error If you need help, you may report this log at:
+30 error     <http://github.com/isaacs/npm/issues>
+30 error or email it to:
+30 error     <npm-@googlegroups.com>
+31 error System Linux 4.13.0-36-generic
+32 error command "/home/slick/.miniconda3/envs/node/bin/node" "/home/slick/.miniconda3/envs/node/bin/npm" "install" "-g" "express"
+33 error cwd /home/slick/doc/web_dev/node/moreExpress
+34 error node -v v0.8.7
+35 error npm -v 1.1.49
+36 verbose exit [ 1, true ]

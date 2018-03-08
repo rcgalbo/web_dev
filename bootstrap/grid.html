@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Grid System</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style type="text/css">
+  .pink {
+    background-color: pink;
+    border: 1px solid purple;
+  }
+  .orange {
+    background-color: orange;
+    height: 50px;
+    border: 1px dashed red;
+  }
+  </style>
+</head>
+<body>
+  
+<!--===================================-->
+<!--            Objectives             -->
+<!--1. understand purpose of grid      -->
+<!--2. understand the 4 differend sizes-->
+<!--3. write nested grids              -->
+<!--===================================-->
+
+<div class="container">
+  <!--<div class="row">-->
+    <!--<div class="col-lg-2 pink">COL LG 2</div>-->
+    <!--<div class="col-lg-8 pink">COL LG 8</div>-->
+    <!--<div class="col-lg-2 pink">COL LG 2</div>-->
+  <!--</div>-->
+  <!--<div class="row">-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+    <!--<div class="col-lg-1 col-md-2 pink">COL LG 1</div>-->
+  <!--</div>-->
+  <div class="row">
+    <div class="col-md-3 col-sm-6 pink">
+      <div class="row">
+        <div class="col-lg-6 orange">Half</div>
+        <div class="col-lg-6 orange">Other Half</div>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6 pink">tour date</div>
+    <div class="col-md-3 col-sm-6 pink">tour date</div>
+    <div class="col-md-3 col-sm-6 pink">
+      <div class="row">
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+        <div class="col-lg-2 orange"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

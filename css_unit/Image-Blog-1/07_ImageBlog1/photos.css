@@ -1,0 +1,16 @@
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%
+}
+
+p {
+  font-family: "Ubuntu Mono";
+  margin-left: 1.66%;
+  margin-top: 1.66 %;
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 3px solid #F1F1F1;
+  width: 30%;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+h1 {
+  color: rgba(0,200,100,0.8);
+  /*border-color: purple;*/
+  /*border-width: 5px;*/
+  /*border-style: solid;*/
+
+  border: 8px dashed rgb(255, 100, 80);
+}
+
+h4 {
+  background: rgb(255, 100, 80);
+}
+
+body {
+  /*background: url(http://uploads.documents.cimpress.io/v1/uploads/d3ad04d7-0e58-47a2-9aed-02f3f63dc99d~110/original?tenant=vbu-digital);*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+
+  
+}

@@ -1,0 +1,29 @@
+body {
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+  font-family: "Encode Sans Expanded";
+}
+
+.date {
+  color: #4eacce;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.quote {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+hr { 
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.post {
+  margin-bottom: 10px;
+}
